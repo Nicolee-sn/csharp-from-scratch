@@ -1,60 +1,59 @@
-﻿namespace HelloWorld {
+﻿namespace HelloWorld
+{
+    
+    // BASE CLASS: Rectangle
+    public class Rectangle
+    {
+        public double Base { get; set; }
+        public double Height { get; set; }
+
+        // Expression-bodied methods (lambda) for calculation
+        public double GetArea() => Base * Height;
+        public double GetPerimeter() => 2 * (Base + Height);
+    }
+
+    // DERIVED CLASS: Square (Inherits from Rectangle)
+    public class Square : Rectangle
+    {
+        // Custom Property with getter/setter overriding side values
+        public double Side
+        {
+            get => Base;
+            set
+            {
+                Base = value;
+                Height = value;
+            }
+        }
+    }
+
     class Program
     {
         static void Main()
         {
-        
-            // ALGORITHM 1: CONDITIONALS (Positive, Negative, or Zero)
-            Console.WriteLine(" ALGORITMO 1: CONDICIONALES ");
-            Console.Write("Ingrese un número: ");
-            string inputNumber = Console.ReadLine();
-
-            int number;
-            if (int.TryParse(inputNumber, out number))
+            // 1. RECTANGLE EXAMPLE
+            Console.WriteLine("=== RECTANGLE EXAMPLE ===");
+            var rectangle = new Rectangle
             {
-                if (number > 0)
-                {
-                    Console.WriteLine("El número es POSITIVO.");
-                }
-                else if (number < 0)
-                {
-                    Console.WriteLine("El número es NEGATIVO.");
-                }
-                else
-                {
-                    Console.WriteLine("El número es CERO.");
-                }
-            }
-            else
+                Base = 20,
+                Height = 40
+            };
+
+            Console.WriteLine($"Area: {rectangle.GetArea()}");
+            Console.WriteLine($"Perimeter: {rectangle.GetPerimeter()}");
+
+            Console.WriteLine("\n===========================\n");
+
+            // 2. SQUARE (INHERITANCE) EXAMPLE
+            Console.WriteLine("=== SQUARE EXAMPLE (INHERITANCE) ===");
+            var square = new Square
             {
-                Console.WriteLine("Entrada no válida.");
-            }
+                Side = 20 // Sets both Base and Height to 20 automatically
+            };
 
-            Console.WriteLine("\nPresione ENTER para continuar al segundo algoritmo...");
-            Console.ReadLine();
-
-            // ALGORITHM 2: MATHEMATICAL OPERATORS 
-            Console.WriteLine(" ALGORITMO 2: OPERADORES MATEMÁTICOS ");
-
-            Console.Write("Ingrese el primer número: ");
-            int a = int.Parse(Console.ReadLine());
-
-            Console.Write("Ingrese el segundo número: ");
-            int b = int.Parse(Console.ReadLine());
-
-            Console.WriteLine($"Suma: {a + b}");
-            Console.WriteLine($"Resta: {a - b}");
-            Console.WriteLine($"Multiplicación: {a * b}");
-
-            // Evaluación condicional para evitar división por cero
-            if (b != 0)
-            {
-                Console.WriteLine($"División: {(double)a / b}");
-            }
-            else
-            {
-                Console.WriteLine("División: Indeterminado (No se puede dividir por cero)");
-            }
+            Console.WriteLine($"Side: {square.Side}");
+            Console.WriteLine($"Area: {square.GetArea()}");
+            Console.WriteLine($"Perimeter: {square.GetPerimeter()}");
 
             Console.ReadLine();
         }
