@@ -1,59 +1,78 @@
 ﻿namespace HelloWorld
 {
-    
-    // BASE CLASS: Rectangle
-    public class Rectangle
+    // INTERFACES (Polymorphism)
+    public interface IFigura
     {
-        public double Base { get; set; }
-        public double Height { get; set; }
-
-        // Expression-bodied methods (lambda) for calculation
-        public double GetArea() => Base * Height;
-        public double GetPerimeter() => 2 * (Base + Height);
+        double Radio { get; set; }
+        double Area();
+        double Perimetro();
     }
 
-    // DERIVED CLASS: Square (Inherits from Rectangle)
-    public class Square : Rectangle
+    public interface IExtraCalculations
     {
-        // Custom Property with getter/setter overriding side values
-        public double Side
-        {
-            get => Base;
-            set
-            {
-                Base = value;
-                Height = value;
-            }
-        }
+        double Add();
+    }
+
+    // CLASS IMPLEMENTATION
+    public class Circle : IFigura, IExtraCalculations
+    {
+        public double Radio { get; set; }
+
+        public double Area() => Math.PI * Math.Pow(Radio, 2);
+        public double Perimetro() => 2 * Math.PI * Radio;
+
+        public double Add() => Radio + 10;
     }
 
     class Program
     {
         static void Main()
         {
-            // 1. RECTANGLE EXAMPLE
-            Console.WriteLine("=== RECTANGLE EXAMPLE ===");
-            var rectangle = new Rectangle
+            // 1. POLYMORPHISM AND INTERFACES EXAMPLE
+            Console.WriteLine(" 1. INTERFACES AND POLYMORPHISM ");
+            var circle = new Circle { Radio = 20 };
+
+            Console.WriteLine($"Circle Area: {circle.Area():F2}");
+            Console.WriteLine($"Circle Perimeter: {circle.Perimetro():F2}");
+            Console.WriteLine($"Radio + 10 (Extra calculation): {circle.Add()}");
+
+            // 2. FOR LOOP (FIBONACCI SERIES EXAMPLE)
+            Console.WriteLine(" 2. FOR LOOP (FIBONACCI SERIES) ");
+            int a = 0, b = 1;
+            for (int i = 0; i < 10; i++)
             {
-                Base = 20,
-                Height = 40
-            };
+                Console.WriteLine($"Fibonacci step {i}: {a}");
+                int temp = a;
+                a = b;
+                b = temp + b;
+            }
 
-            Console.WriteLine($"Area: {rectangle.GetArea()}");
-            Console.WriteLine($"Perimeter: {rectangle.GetPerimeter()}");
-
-            Console.WriteLine("\n===========================\n");
-
-            // 2. SQUARE (INHERITANCE) EXAMPLE
-            Console.WriteLine("=== SQUARE EXAMPLE (INHERITANCE) ===");
-            var square = new Square
+            // 3. EXCEPTION HANDLING (TRY / CATCH)
+            Console.WriteLine(" 3. EXCEPTION HANDLING ");
+            try
             {
-                Side = 20 // Sets both Base and Height to 20 automatically
-            };
+                Console.Write("Enter dividend number: ");
+                int dividend = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Side: {square.Side}");
-            Console.WriteLine($"Area: {square.GetArea()}");
-            Console.WriteLine($"Perimeter: {square.GetPerimeter()}");
+                Console.Write("Enter divisor number: ");
+                int divisor = int.Parse(Console.ReadLine());
+
+                if (divisor == 0)
+                {
+                    throw new DivideByZeroException("Cannot divide by zero.");
+                }
+
+                int result = dividend / divisor;
+                Console.WriteLine($"Result: {result}");
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine($"Specific Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"General Error: Unknown input or failure. {ex.Message}");
+            }
 
             Console.ReadLine();
         }
