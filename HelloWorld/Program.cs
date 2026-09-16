@@ -1,54 +1,61 @@
-﻿namespace HelloWorld
-{
-    // 1. Creación de la clase Person con sus propiedades
-    public class Person
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public DateOnly BirthDate { get; set; }
-    }
-
+﻿namespace HelloWorld {
     class Program
     {
         static void Main()
         {
-            // Mensaje de bienvenida
-            Console.WriteLine("Hola bienvenido a el calculador de años");
-            Console.WriteLine("Escribe tu nombre: ");
+        
+            // ALGORITHM 1: CONDITIONALS (Positive, Negative, or Zero)
+            Console.WriteLine(" ALGORITMO 1: CONDICIONALES ");
+            Console.Write("Ingrese un número: ");
+            string inputNumber = Console.ReadLine();
 
-            // Leer nombre desde la consola
-            string nameInput = Console.ReadLine();
-            Console.WriteLine($"Un gusto conocerte {nameInput}");
-
-            // Solicitar fecha de nacimiento
-            Console.WriteLine("Escribe tu fecha de nacimiento en formato (dd/MM/yyyy): ");
-            string dateInput = Console.ReadLine();
-
-            DateOnly dateConverted;
-
-            // Validación de la fecha usando DateOnly.TryParse
-            bool isConverted = DateOnly.TryParse(dateInput, out dateConverted);
-
-            if (!isConverted)
+            int number;
+            if (int.TryParse(inputNumber, out number))
             {
-                Console.WriteLine($"La fecha de nacimiento es inválida, usted nos envió este dato: {dateInput} y es erróneo.");
-                return;
+                if (number > 0)
+                {
+                    Console.WriteLine("El número es POSITIVO.");
+                }
+                else if (number < 0)
+                {
+                    Console.WriteLine("El número es NEGATIVO.");
+                }
+                else
+                {
+                    Console.WriteLine("El número es CERO.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida.");
             }
 
-            // Instancia de la clase Person e inicialización de propiedades
-            var person = new Person
+            Console.WriteLine("\nPresione ENTER para continuar al segundo algoritmo...");
+            Console.ReadLine();
+
+            // ALGORITHM 2: MATHEMATICAL OPERATORS 
+            Console.WriteLine(" ALGORITMO 2: OPERADORES MATEMÁTICOS ");
+
+            Console.Write("Ingrese el primer número: ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Ingrese el segundo número: ");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Suma: {a + b}");
+            Console.WriteLine($"Resta: {a - b}");
+            Console.WriteLine($"Multiplicación: {a * b}");
+
+            // Evaluación condicional para evitar división por cero
+            if (b != 0)
             {
-                Name = nameInput,
-                BirthDate = dateConverted,
-                Age = DateTime.Now.Year - dateConverted.Year
-            };
+                Console.WriteLine($"División: {(double)a / b}");
+            }
+            else
+            {
+                Console.WriteLine("División: Indeterminado (No se puede dividir por cero)");
+            }
 
-            // Imprimir la información de la persona
-            Console.WriteLine($"Tu nombre: {person.Name}");
-            Console.WriteLine($"Tu fecha de nacimiento: {person.BirthDate.ToString("yyyy/MM/dd")}");
-            Console.WriteLine($"Tu edad es: {person.Age} años");
-
-            // Pausa para mantener la ventana abierta
             Console.ReadLine();
         }
     }
