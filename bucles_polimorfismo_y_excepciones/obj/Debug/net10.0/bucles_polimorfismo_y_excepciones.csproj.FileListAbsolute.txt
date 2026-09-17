@@ -1,0 +1,15 @@
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\bin\Debug\net10.0\bucles_polimorfismo_y_excepciones.exe
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\bin\Debug\net10.0\bucles_polimorfismo_y_excepciones.deps.json
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\bin\Debug\net10.0\bucles_polimorfismo_y_excepciones.runtimeconfig.json
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\bin\Debug\net10.0\bucles_polimorfismo_y_excepciones.dll
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\bin\Debug\net10.0\bucles_polimorfismo_y_excepciones.pdb
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.AssemblyInfoInputs.cache
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.AssemblyInfo.cs
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.csproj.CoreCompileInputs.cache
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.sourcelink.json
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.dll
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\refint\bucles_polimorfismo_y_excepciones.dll
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.pdb
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\bucles_polimorfismo_y_excepciones.genruntimeconfig.cache
+C:\Repos ITM\Csharp-From-scratch\bucles_polimorfismo_y_excepciones\obj\Debug\net10.0\ref\bucles_polimorfismo_y_excepciones.dll

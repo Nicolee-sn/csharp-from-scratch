@@ -1,0 +1,15 @@
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\bin\Debug\net10.0\ClasesYHerencia.exe
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\bin\Debug\net10.0\ClasesYHerencia.deps.json
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\bin\Debug\net10.0\ClasesYHerencia.runtimeconfig.json
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\bin\Debug\net10.0\ClasesYHerencia.dll
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\bin\Debug\net10.0\ClasesYHerencia.pdb
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.AssemblyInfoInputs.cache
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.AssemblyInfo.cs
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.csproj.CoreCompileInputs.cache
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.sourcelink.json
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.dll
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\refint\ClasesYHerencia.dll
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.pdb
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ClasesYHerencia.genruntimeconfig.cache
+C:\Repos ITM\Csharp-From-scratch\ClasesYHerencia\obj\Debug\net10.0\ref\ClasesYHerencia.dll
