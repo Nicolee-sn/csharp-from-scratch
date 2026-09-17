@@ -1,0 +1,15 @@
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\bin\Debug\net10.0\itm.basic.exe
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\bin\Debug\net10.0\itm.basic.deps.json
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\bin\Debug\net10.0\itm.basic.runtimeconfig.json
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\bin\Debug\net10.0\itm.basic.dll
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\bin\Debug\net10.0\itm.basic.pdb
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.AssemblyInfoInputs.cache
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.AssemblyInfo.cs
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.csproj.CoreCompileInputs.cache
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.sourcelink.json
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.dll
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\refint\itm.basic.dll
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.pdb
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\itm.basic.genruntimeconfig.cache
+C:\Repos ITM\Csharp-From-scratch\ITM.Basic\obj\Debug\net10.0\ref\itm.basic.dll
