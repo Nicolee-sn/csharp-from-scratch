@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos ITM\\Csharp-From-scratch\\ITM.Basic\\itm.basic.csproj": {}
+    "C:\\Repos ITM\\Csharp-From-scratch\\itm.basic\\itm.basic.csproj": {}
   },
   "projects": {
-    "C:\\Repos ITM\\Csharp-From-scratch\\ITM.Basic\\itm.basic.csproj": {
+    "C:\\Repos ITM\\Csharp-From-scratch\\itm.basic\\itm.basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos ITM\\Csharp-From-scratch\\ITM.Basic\\itm.basic.csproj",
+        "projectUniqueName": "C:\\Repos ITM\\Csharp-From-scratch\\itm.basic\\itm.basic.csproj",
         "projectName": "itm.basic",
-        "projectPath": "C:\\Repos ITM\\Csharp-From-scratch\\ITM.Basic\\itm.basic.csproj",
+        "projectPath": "C:\\Repos ITM\\Csharp-From-scratch\\itm.basic\\itm.basic.csproj",
         "packagesPath": "C:\\Users\\sanma\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos ITM\\Csharp-From-scratch\\ITM.Basic\\obj\\",
+        "outputPath": "C:\\Repos ITM\\Csharp-From-scratch\\itm.basic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
