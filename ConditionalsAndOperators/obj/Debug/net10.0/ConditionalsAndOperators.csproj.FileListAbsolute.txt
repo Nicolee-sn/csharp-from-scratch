@@ -1,0 +1,15 @@
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\bin\Debug\net10.0\ConditionalsAndOperators.exe
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\bin\Debug\net10.0\ConditionalsAndOperators.deps.json
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\bin\Debug\net10.0\ConditionalsAndOperators.runtimeconfig.json
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\bin\Debug\net10.0\ConditionalsAndOperators.dll
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\bin\Debug\net10.0\ConditionalsAndOperators.pdb
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.AssemblyInfoInputs.cache
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.AssemblyInfo.cs
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.csproj.CoreCompileInputs.cache
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.sourcelink.json
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.dll
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\refint\ConditionalsAndOperators.dll
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.pdb
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ConditionalsAndOperators.genruntimeconfig.cache
+C:\Repos ITM\Csharp-From-scratch\ConditionalsAndOperators\obj\Debug\net10.0\ref\ConditionalsAndOperators.dll
