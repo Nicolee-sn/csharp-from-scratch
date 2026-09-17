@@ -1,4 +1,4 @@
-﻿namespace HelloWorld {
+﻿namespace CoditionalsAndOperators{
     class Program
     {
         static void Main()
