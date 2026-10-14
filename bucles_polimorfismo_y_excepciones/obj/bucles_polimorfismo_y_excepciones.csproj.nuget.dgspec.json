@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos ITM\\Csharp-From-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj": {}
+    "C:\\Repos ITM\\Dart\\csharp-from-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj": {}
   },
   "projects": {
-    "C:\\Repos ITM\\Csharp-From-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj": {
+    "C:\\Repos ITM\\Dart\\csharp-from-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos ITM\\Csharp-From-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj",
+        "projectUniqueName": "C:\\Repos ITM\\Dart\\csharp-from-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj",
         "projectName": "bucles_polimorfismo_y_excepciones",
-        "projectPath": "C:\\Repos ITM\\Csharp-From-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj",
+        "projectPath": "C:\\Repos ITM\\Dart\\csharp-from-scratch\\bucles_polimorfismo_y_excepciones\\bucles_polimorfismo_y_excepciones.csproj",
         "packagesPath": "C:\\Users\\sanma\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos ITM\\Csharp-From-scratch\\bucles_polimorfismo_y_excepciones\\obj\\",
+        "outputPath": "C:\\Repos ITM\\Dart\\csharp-from-scratch\\bucles_polimorfismo_y_excepciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
